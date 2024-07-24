@@ -1,6 +1,6 @@
 #/bin/bash
 
-#yum update -y --exclude=kernel*
+yum update -y --exclude=kernel*
 
 yum install -y nginx
 systemctl enable nginx
